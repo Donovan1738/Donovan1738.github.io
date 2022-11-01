@@ -4,22 +4,40 @@ body {
 }
 
 .assignment {
-    background: gray;
     display:flex;
+    padding:10px;
     margin:10px;
-    padding:10px
+    background: gray;
+    border-radius: 5px;
+   
+    
     
 }
    
-
-
 .assignment img {
-    padding:10px;
-    width:200px
-   
+    width:200px;
+    margin:10px;
+    border:4px solid white;
+}
+
+.assignment img:hover {
+    border:4px dashed yellow
 }
 
 h1 {
     color:rgb(255, 34, 0);
     text-align:center; 
+}
+
+h1:hover {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:aqua;
 }
