@@ -1,5 +1,5 @@
 body {
-    background: green;
+    background: white;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-    color:rgb(255, 34, 0);
+    color: black;
     text-align:center; 
 }
 
