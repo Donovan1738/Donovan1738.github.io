@@ -10,10 +10,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    color: whitesmoke;
+h1 {
+     color:lightseagreen;
 }
 
-h1 {
-     color: lightblue;
+h2 {
+    color: black;
+}
+
+body {
+    color: whitesmoke
 }
