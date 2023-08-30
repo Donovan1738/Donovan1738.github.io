@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-     color:lightseagreen;
+     color:rgb(3, 98, 93);
 }
 
 h2 {
@@ -19,5 +19,10 @@ h2 {
 }
 
 body {
-    color: whitesmoke
+    color: purple
+}
+ 
+a {
+    text-decoration: none;
+    color: purple;
 }
