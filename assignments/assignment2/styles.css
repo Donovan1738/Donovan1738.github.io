@@ -1,13 +1,20 @@
 /*Stucture */
 
 body {
-    background-color: white;
+    background-color:darkgray;
+}
+
+div {
+    border: 1px solid black;
+    padding: 25px 50px 75px;
 }
 
 /* Tables */
 
 table {
     border-collapse: collapse;
+    background-color: blue;
+    padding: 25px 50px 75px;
 }
 
 td,
@@ -19,4 +26,16 @@ th {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#p1 {
+    color: white;
+}
+
+#p2 {
+    color:lightblue;
 }
