@@ -4,11 +4,12 @@ body {
     background-color: darkslategray;
 }
 
-/*Typography */
-
-body {
+#class {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*Typography */
+
 
 h1 {
      color: black;
