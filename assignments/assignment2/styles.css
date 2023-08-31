@@ -5,8 +5,12 @@ body {
 }
 
 div {
+    border-collapse: collapse;
+    padding: 5px 10px 5px;
+}
+
+img {
     border: 1px solid black;
-    padding: 15px 25px;
 }
 
 /* Tables */
@@ -28,10 +32,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-    text-decoration: none;
+a:link, a:visited {
     color: darkgray;
+    text-decoration: none;
+    padding: 5px 10px 5px;
 }
+
+a:hover, a:active {
+    color: whitesmoke;
+  }
 
 #p1,
 #p2 {
