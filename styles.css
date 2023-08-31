@@ -1,7 +1,7 @@
 /*Stucture */
 
 body {
-    background-color: darkgray;
+    background-color: darkslategray;
 }
 
 /*Typography */
@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-     color:rgb(3, 98, 93);
+     color: black;
 }
 
 h2 {
@@ -19,10 +19,10 @@ h2 {
 }
 
 body {
-    color: purple
+    color: gold;
 }
  
 a {
     text-decoration: none;
-    color: whitesmoke;
+    color: purple;
 }
