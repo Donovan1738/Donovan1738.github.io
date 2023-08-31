@@ -22,7 +22,12 @@ body {
     color: darkgoldenrod;
 }
  
-a {
-    text-decoration: none;
+a:link, a:visited {
     color: darkgray;
+    text-decoration: none;
+    padding: 5px 10px 5px;
 }
+
+a:hover, a:active {
+    color: whitesmoke;
+  }
