@@ -1,7 +1,7 @@
 /*Stucture */
 
 body {
-    background-color:darkgray;
+    background-color:darkslategray;
 }
 
 div {
@@ -30,11 +30,11 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: darkgray;
 }
 
 #p1,
 #p2 {
-    color: purple;
+    color: darkgoldenrod;
 }
 
