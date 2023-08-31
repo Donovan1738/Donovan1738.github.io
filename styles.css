@@ -19,10 +19,14 @@ h2 {
 }
 
 body {
-    color: gold;
+    color: darkgoldenrod;
+}
+
+#list {
+    color:darkslategrey;
 }
  
 a {
     text-decoration: none;
-    color: purple;
+    color: darkslategray;
 }
