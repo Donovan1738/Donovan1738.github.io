@@ -10,9 +10,9 @@ body {
 
 /*Typography */
 
-
 h1 {
      color: black;
+     font-weight: bold;
 }
 
 h2 {
@@ -31,4 +31,4 @@ a:link, a:visited {
 
 a:hover, a:active {
     color: whitesmoke;
-  }
+}
