@@ -20,7 +20,7 @@ body {
 .c1,
 .c2, .c3 {
     border: 5px solid black;
-    margin: 25px 50px;
+    margin: 25px;
     flex:1;
 }
 
