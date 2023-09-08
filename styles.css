@@ -8,15 +8,34 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#assign {
+    text-align: center;
+}
+
+.columns-3 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.c1,
+.c2, .c3 {
+    border: 5px solid black;
+    margin: 25px 50px;
+    flex:1;
+}
+
+
 /*Typography */
 
 h1 {
      color: black;
      font-weight: bold;
+     text-align: center;
 }
 
 h2 {
     color: black;
+    font-weight: bold;
 }
 
 body {
@@ -31,4 +50,13 @@ a:link, a:visited {
 
 a:hover, a:active {
     color: whitesmoke;
+}
+
+/*Larger Resolutions (mobile devices)*/
+@media only screen and (max-width: 600px) {
+  
+.columns-3 {
+    display: inline;
+}
+
 }
