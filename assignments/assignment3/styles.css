@@ -1,0 +1,138 @@
+/* Structure */
+
+body {
+    background-color: whitesmoke;
+}
+
+#main-header {
+    text-align: center;
+    margin: 25px 50px;
+    background-color: blue;
+    border: 5px solid black;  
+}
+
+#main-footer {
+    background-color: blue;
+    margin: 25px 50px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+#img {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+#img1,
+#img2,#img3 {
+    margin: 25px 40px;
+    font-size: 20px;
+    border: 5px solid black;
+}
+
+.flex {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+.flex > section {
+    background-color: blue;
+    margin: 25px 45px;
+    font-size: 20px;
+    border: 5px solid black;
+    justify-content: center;
+}
+
+.padded-area {
+    padding: 5px;
+    margin: auto;
+}
+
+.info {
+    border:3px solid black;   
+}
+
+.info header {
+    background-color: whitesmoke;
+    margin: 0 auto;
+}
+
+.columns {
+    background-color: white;
+    margin: 25px 50px;
+    
+}
+
+.columns2{
+    display: inline-flex;
+    background-color: whitesmoke;
+    margin: 25px 24px;
+}
+
+#c1,
+#c2, #c3{
+    background-color: blue;
+    font-size: 20px;
+    border: 5px solid black;
+}
+
+/* main navigation */
+#main-nav ul {
+    padding-left: 0px; /*moves list all the way to the left*/
+    margin: 25px 50px;
+    background-color: blue;
+    text-align: center;
+}
+
+#main-nav li {
+    list-style-type: none;
+}
+
+#main-nav a {
+    display: flex;
+    padding: 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+#main-nav a:hover {
+    border-bottom: 1px solid greenyellow;
+}
+
+/* Typography */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1 {
+    color: rgb(252, 25, 25);
+}
+
+/*Larger Resolutions (mobile devices)*/
+@media only screen and (min-width: 500px) {
+body {
+    background-color: whitesmoke;
+ }
+
+#main-nav li {
+    display:inline-block;
+}
+
+.columns{
+    display: inline-block;
+}
+
+.col1of2 {
+    display: inline-block;
+}  
+
+#img {
+    display: inline-block;
+}
+
+}
+ 
