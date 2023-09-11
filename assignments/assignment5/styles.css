@@ -1,0 +1,280 @@
+/* Structure */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding-bottom: 30px; 
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.flex-container1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: maroon;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: sticky;
+    top: 0;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: maroon;
+    color: white;
+}
+
+.hi {
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+}
+
+.hi li {
+    display: inline-block;
+    
+}
+
+.hi2 {
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+}
+
+.hi2 li {
+    display: inline-block;
+    
+}
+.title {
+    display: inline-block;
+    justify-content: flex-start;
+    padding-right: 45%;
+}
+
+#main-nav li {
+    display:inline;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+#main-nav {
+    background-color: maroon;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+.flex {
+    display: inline-block;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#remarkable {
+    display: flex;
+    background-color: maroon;
+   
+}
+#remarkable2 {
+    display: flex;
+    background-color: black;
+}
+
+#remarkable3 {
+    display: flex;
+    background-color: rgb(229, 227, 227);
+}
+
+#remarkable4 {
+    display: flex;
+    background-color: rgb(35, 75, 88);
+}
+
+#tag {
+    margin: 45px;
+}
+
+#tag2 {
+    display: inline-flex;
+}
+
+.none {
+    text-decoration: none;
+    color: white;
+    background:maroon;
+    padding: 15px;
+    border: 2px solid white;
+}
+
+.none1 {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 15px;
+    border: 2px solid white;
+}
+
+.none2 {
+    text-decoration: none;
+    color: white;
+    background:maroon;
+
+}
+
+#spotlight {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 40px;
+}
+
+#light {
+    text-align: center;
+}
+
+#build {
+    background-color: maroon;
+    margin: 25px 50px;
+}
+
+#img {
+    background-image: url(https://place-hold.it/1200x400);
+}
+
+.table li {
+    display: flexbox;
+}
+
+/* Typography */
+
+.hi a, .hi2 a {
+    color: white;
+    font-size: xx-small;
+    text-decoration: none;
+}
+
+#gate {
+    font-weight: bold;
+    font-size: small;
+    padding-top: 6px; 
+}
+
+#p1 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#p2 {
+    font-size: larger;
+}
+
+#search {
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+    background: maroon;
+    margin-right: 400px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+}
+
+#remark  {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    display: inline-flexbox;
+}
+#remark2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    display: inline-flexbox;
+}
+
+#p3 {
+    font-size: large;
+    color: white;
+    padding-bottom: 35px;
+}
+
+.new {
+    font-size: 45px;
+    color: maroon;
+    font-weight: bolder;
+}
+
+#p4 {
+    color: black;
+    padding-bottom: 35px;
+}
+
+.p5 {
+    text-decoration: none;
+    color: black;
+}
+
+.t1 {
+    color: maroon;
+    font-size: larger;
+}
+
+.spots {
+    text-decoration: none;
+}
+
+.spots2 {
+    text-decoration: none;
+    color: maroon;
+    text-emphasis: bold;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.table li {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 25px 35px;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    
+}
+/* Horizontal; Navigation */
+.horizontal-nav ul {
+    padding: 25px 50px;
+}
+
+.horizontal-nav li {
+    list-style-type: none;
+}
+
+.horizontal-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* Navigation */
+#main-nav li :hover{
+    background-color: rgb(208, 2, 2);
+}
+
+#lit li :hover {
+    background-color: rgb(208, 2, 2);
+}
+
+a.none:hover,
+a.none1:hover{
+    background-color: white;
+    color: maroon;
+}
+
