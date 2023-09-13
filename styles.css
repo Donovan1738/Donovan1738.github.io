@@ -18,10 +18,11 @@ body {
     text-align: center;
 }
 .c1,
-.c2, .c3 {
+.c2, .c3, .c4 {
     border: 5px solid black;
     margin: 25px;
     flex:1;
+    /* flex-wrap: wrap; */
 }
 
 

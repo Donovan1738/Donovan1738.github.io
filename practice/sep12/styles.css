@@ -1,0 +1,11 @@
+/* Typography */
+.special {
+    background: green;
+    padding: 5px;
+    color: gold;
+    border: 1px solid blue;
+}
+
+.hide {
+    display: none;
+}
