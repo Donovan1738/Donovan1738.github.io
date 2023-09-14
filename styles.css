@@ -14,17 +14,13 @@ body {
 
 .columns-3 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
 }
-.c1,
-.c2, .c3, .c4 {
+.c1 {
     border: 5px solid black;
     margin: 25px;
-    flex:1;
-    /* flex-wrap: wrap; */
 }
-
 
 /*Typography */
 
