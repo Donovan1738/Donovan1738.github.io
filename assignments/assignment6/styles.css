@@ -4,8 +4,7 @@
     background-color: black;
     text-align: center;
     text-emphasis: bold;
-    color: white;
-    
+    color: white;   
 }
 
 .columns1 {
@@ -27,7 +26,6 @@
 #heart {
     position: relative;
 }
-
 
 /*Typography */
 
@@ -54,6 +52,7 @@
     font-size: x-large;
     text-align: center;
 }
+
 /* Animation */
 
 .move-heart {
