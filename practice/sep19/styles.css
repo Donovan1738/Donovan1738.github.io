@@ -1,0 +1,36 @@
+/* Structure */
+
+
+/* Animation */
+#square {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+}
+
+.move-square {
+    animation-name: anim-square;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim-square {
+    0% {
+        background-color: blue;
+        opacity: 1;
+        top:0px;
+    }
+    50% {
+        background-color: rebeccapurple;
+        opacity: 0;
+        top:100px;
+    }
+    100% {
+        background-color: green;
+        top:0px;
+    }
+}
