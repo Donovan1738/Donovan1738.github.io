@@ -14,9 +14,13 @@ body {
 
 .columns-3 {
     display: flex; 
-    justify-content: space-between; 
+    flex-wrap: wrap;
     text-align: center;
-    flex: 1;
+ 
+}
+
+#a, #b, #c, #d, #e, #f {
+    flex:1;
 }
 
 .c1 {
