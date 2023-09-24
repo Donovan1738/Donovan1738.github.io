@@ -1,22 +1,148 @@
 /* Structure */ 
 
+body {
+    background-color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.main-header {
+    text-align: center;
+    text-emphasis: bold;
+    color: black;  
+    font-size: 25px;
+}
 
+#flex {
+    display: inline;
+    justify-content: space-evenly;
+}
+
+.hide {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Rectangle */
+
+#rectangle  {
+    width: 50px;
+    height: 150px;
+    background: #fff;
+    margin-left: 100px;
+}
+
+#rectangle.red {
+    background: linear-gradient(180deg, #fff 75%, red 25%);
+}
+
+#rectangle.red2 {
+    background: linear-gradient(180deg, #fff 50%, red 50%);
+}
+
+#rectangle.red3 {
+    background: linear-gradient(180deg, #fff 25%, red 0%);
+}
+
+#rectangle.red4 {
+    background: red;
+}
+
+/* Navigation */ 
+
+#main-nav2 {
+    display:inline;
+}
+
+#nav-toggle div {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(2, 163, 166);
+    margin: 6px 0;
+    display: flex;
+    justify-content: left;
+}
+
+#button1, 
+#button2 {
+    border: none;
+    background-color: darkslategray;
+    width: 100%;
+    font-size: x-large
+}
+
+label,
+input {
+    display: block;
+}
+
+label {
+    width: 120px;
+    text-align: right;
+    padding: 1px;
+}
 
 
 /* Typography */ 
 
+#title {
+    background-color: darkturquoise;
+    margin: 0px;
+    padding: 2px;
+}
+
+#Exercise1, #Exercise2 {
+    text-align: center;
+    background-color: darkturquoise; 
+    margin: auto;
+    width: 50%;
+}
+
+.margin {
+    margin: auto;
+    width: 50%;
+}
+
+#button1:hover, #button2:hover {
+    background-color: rgb(57, 94, 94);
+}
 
 
+#fund, #tag {
+    font-size: xx-large;
+}
 
+#goal {
+    font-size: x-large;
+}
+.text {
+    text-align: left;
+}
 
+/* .hover {
+    border-bottom: solid 4px red;
+} */
+ 
 /*Larger Resolutions (mobile devices)*/
-@media only screen and (min-width: 600px) {
-    .columns {
+@media only screen and (min-width: 600px) { 
+    #flex {
         display: flex;
     }
 
-    .p {
-        display: flex;
+    #nav-toggle {
+        display: none;
     }
+
+   .hidden {
+    display: block;
+   }
+   
+   .p {
+    display: flex;
+    justify-self: start;
+   }
+
+
 }
