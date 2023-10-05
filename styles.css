@@ -16,11 +16,11 @@ body {
     display: flex; 
     flex-wrap: wrap;
     text-align: center;
- 
 }
 
-#a, #b, #c, #d, #e, #f {
-    flex:1;
+#a, #b, #c, #d, #e, #f, #g, #h {
+    flex: 2;
+    flex-grow: 0;
 }
 
 .c1 {
@@ -61,6 +61,7 @@ a:hover, a:active {
   
 .columns-3 {
     display: inline;
+    
 }
 
 
