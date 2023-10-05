@@ -16,9 +16,16 @@ body {
     display: flex; 
     flex-wrap: wrap;
     text-align: center;
+<<<<<<< HEAD
 }
 
 #a, #b, #c, #d, #e, #f, #g, #h {
+=======
+    justify-content: space-evenly;
+}
+
+#a, #b, #c, #d, #e, #f, #g {
+>>>>>>> fd575fc742e6c6d087405194fc92ea044a7a494a
     flex: 2;
     flex-grow: 0;
 }
