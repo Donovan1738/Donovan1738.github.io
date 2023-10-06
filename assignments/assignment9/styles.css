@@ -30,3 +30,45 @@ body {
     display: none;
 }
 
+/* Rainbow */ 
+
+#gold {
+    position: absolute;
+    right: 149.5px;
+    top: 220px;
+    z-index: 1;
+}
+
+#red, #orange, #yellow, #green, #blue, #indigo {
+    
+    width: 80%;
+    height: 15%;
+    position: relative;
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#indigo {
+    background-color: indigo;
+}
+

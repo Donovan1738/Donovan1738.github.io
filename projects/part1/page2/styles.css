@@ -19,6 +19,10 @@ body {
     color: black;
 }
 
+#hi2 a, #hi a:hover, #hi3 a:hover, #hi4 a:hover, #hi5 a:hover { 
+    border-bottom: 3px solid blue;
+}
+
 /* Structure */
 
 #pic {
