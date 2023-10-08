@@ -14,7 +14,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-
 /* Structure */
 
 #pic {
@@ -59,6 +58,7 @@ img {
     display: inline;
     justify-content: space-evenly;
 }
+
 #main-nav li {
     list-style-type: none;
 }
@@ -67,7 +67,6 @@ img {
     text-decoration: none;
     font-size: larger;
     color: grey;
-
 }
 
 #main-nav2 {
@@ -94,12 +93,12 @@ img {
     }
 
    .hide {
-    display: block;
+        display: block;
    }
    
    .flex {
-    display: flex;
-    justify-content: space-evenly;
+        display: flex;
+        justify-content: space-evenly;
    }
 
 }
