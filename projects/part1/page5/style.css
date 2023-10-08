@@ -18,18 +18,12 @@ body {
     border-bottom: 3px solid blue;
 }
 
-#reviews {
-    background-color: gray;
-    text-align: center;
-    width: 52.5%;
-    color: black;
+#p1 {
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-}
-
-#link {
-    text-decoration: none;
-}
+    background-color: gray;
+ }
 
 /* Structure */
 
@@ -63,6 +57,9 @@ label {
 
 #review {
     display: flex; 
+    justify-content: center;
+    background-color: grey;
+    text-align: center;
 }
 
 /* Navigation */
