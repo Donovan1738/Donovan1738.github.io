@@ -26,7 +26,7 @@ body {
     text-align: center;
 }
 
-.hidden {
+.hide {
     display: none;
 }
 
@@ -39,15 +39,6 @@ body {
     z-index: 1;
 }
 
-#red, #orange, #yellow, #green, #blue, #indigo {
-    
-    width: 80%;
-    height: 15%;
-    position: relative;
-    margin: 0px;
-    margin-bottom: 0px;
-    padding: 0px;
-}
 #red {
     background-color: red;
 }
@@ -72,3 +63,12 @@ body {
     background-color: indigo;
 }
 
+#red, #orange, #yellow, #green, #blue, #indigo {
+    
+    width: 80%;
+    height: 15%;
+    position: relative;
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
