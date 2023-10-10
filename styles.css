@@ -18,7 +18,7 @@ body {
     text-align: center;
 }
 
-#a, #b, #c, #d, #e, #f, #g, #h {
+#a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m {
     flex: 2;
     flex-grow: 0;
 }

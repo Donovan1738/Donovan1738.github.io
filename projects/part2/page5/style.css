@@ -1,0 +1,117 @@
+/* Typography */
+
+#title {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#over {
+    text-align: center;
+    font-size: x-large;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#hi5 a:hover, #hi a:hover, #hi2 a:hover, #hi3 a:hover, #hi4 a:hover { 
+    border-bottom: 3px solid blue;
+}
+
+#p1 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+ }
+
+/* Structure */
+
+.hide {
+    display: none;
+}
+
+
+label,
+input {
+    display: block;
+}
+
+label {
+    width: 120px;
+    text-align: right;
+    padding: 1px;
+}
+
+#text {
+    text-align: start;
+    margin: auto;
+    width: 50%;
+    display:inline;
+}
+
+.margin {
+    margin: auto;
+    width: 50%;
+}
+
+#review {
+    display: flex; 
+    justify-content: center;
+    background-color: grey;
+    text-align: center;
+}
+
+/* Navigation */
+
+#main-nav {
+    display: inline;
+    justify-content: space-evenly;
+}
+
+#main-nav li {
+    list-style-type: none;
+}
+
+#main-nav a {
+    text-decoration: none;
+    font-size: larger;
+    color: grey;
+
+}
+
+#main-nav2 {
+    display:inline;
+}
+
+#nav-toggle div {
+    width: 35px;
+    height: 5px;
+    background-color: grey;
+    margin: 6px 0;
+    display: flex;
+    justify-content: left;
+}
+
+/*Larger Resolutions (mobile devices)*/
+@media only screen and (min-width: 600px) { 
+    #main-nav {
+        display: flex;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+   .hide {
+        display: block;
+   }
+
+   #review {
+        display: flex; 
+        margin-left: 300px;
+   }
+   
+}
+
+
