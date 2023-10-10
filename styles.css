@@ -16,6 +16,7 @@ body {
     display: flex; 
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 }
 
 #a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m {
