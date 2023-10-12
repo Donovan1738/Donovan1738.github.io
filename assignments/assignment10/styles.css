@@ -1,14 +1,8 @@
 /* Structure */
 
 :root {
-    --primary: darkblue;
-    --secondary: darkgreen;
-    --tertiary: orange;
     --back: azure;
-    --headback: bisque;
     --mainback: cadetblue;
-    --footback: honeydew;
-    --num: 15%;
 }
 
 body {
@@ -69,6 +63,10 @@ body {
     opacity: 0.1;
 }
 
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
 /* Larger Resolutions */
 
 @media only screen and (min-width: 600px) {
