@@ -26,6 +26,9 @@ body {
     border-bottom: 3px solid blue;
 }
 
+#headphones {
+    margin-left: 13.1%;
+}
 /* Structure */
 
 #pic {
