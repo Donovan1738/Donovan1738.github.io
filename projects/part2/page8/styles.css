@@ -4,6 +4,7 @@
     text-align: center;
     font-size: xx-large;
     text-decoration: none;
+    color: black;
 }
 
 #over {
@@ -13,6 +14,7 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
 }
 
 /* Structure */
@@ -30,12 +32,12 @@ body {
 
 .remarkable3 {
     display: flex;
-    background-color: rgb(229, 227, 227);
 }
 
 #back {
     background-color: darkgray;
     margin: 25px;
+    border: 2px solid black;
 }
 
 #p4 {
@@ -65,7 +67,7 @@ body {
 #main-nav a {
     text-decoration: none;
     font-size: larger;
-    color: grey;
+    color: black;
 }
 
 #main-nav2 {

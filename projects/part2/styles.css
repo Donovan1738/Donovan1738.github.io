@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
 }
 
 #hi a, #hi2 a:hover, #hi3 a:hover, #hi4 a:hover, #hi5 a:hover { 
@@ -52,7 +53,7 @@ body {
 #main-nav a {
     text-decoration: none;
     font-size: larger;
-    color: grey;
+    color: black;
 }
 
 #main-nav2 {

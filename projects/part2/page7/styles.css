@@ -4,6 +4,7 @@
     text-align: center;
     font-size: xx-large;
     text-decoration: none;
+    color: black;
 }
 
 #over {
@@ -13,6 +14,7 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
 }
 
 /* Structure */
@@ -37,6 +39,7 @@ img {
 
 #box {
     background-color: darkgray;
+    border: 2px solid black;
 }
 
 #box, #rain {
@@ -71,7 +74,7 @@ img {
 #main-nav a {
     text-decoration: none;
     font-size: larger;
-    color: grey;
+    color: black;
 }
 
 #main-nav2 {

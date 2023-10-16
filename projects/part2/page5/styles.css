@@ -4,6 +4,7 @@
     text-align: center;
     font-size: xx-large;
     text-decoration: none;
+    color: black;
 }
 
 #over {
@@ -13,6 +14,7 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
 }
 
 #hi5 a, #hi a:hover, #hi2 a:hover, #hi3 a:hover, #hi4 a:hover { 
@@ -79,7 +81,7 @@ label {
 #main-nav a {
     text-decoration: none;
     font-size: larger;
-    color: grey;
+    color: black;
 }
 
 #main-nav2 {

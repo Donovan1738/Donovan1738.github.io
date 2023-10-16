@@ -4,6 +4,7 @@
     text-align: center;
     font-size: xx-large;
     text-decoration: none;
+    color: black;
 }
 
 #over {
@@ -13,6 +14,7 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    background: lightblue;
 }
 
 /* Structure */
@@ -34,7 +36,8 @@ body {
 }
 
 #box {
-    background-color: darkgray;
+    background-color: white;
+    border: 2px solid black;
 }
 
 .flex {
@@ -67,7 +70,7 @@ img {
 #main-nav a {
     text-decoration: none;
     font-size: larger;
-    color: grey;
+    color: black;
 }
 
 #main-nav2 {

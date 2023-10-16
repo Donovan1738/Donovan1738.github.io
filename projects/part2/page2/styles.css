@@ -14,6 +14,7 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
 }
 
 .link {
@@ -44,8 +45,9 @@ body {
 }
 
 #back, #back2, #back3 {
-    background-color: darkgray;
+    background-color: white;
     margin: 25px;
+    border: 2px solid black;
 }
 
 /* Navigation */
@@ -62,7 +64,7 @@ body {
 #main-nav a {
     text-decoration: none;
     font-size: larger;
-    color: grey;
+    color: black;
 }
 
 #main-nav2 {
