@@ -19,7 +19,7 @@ body {
     justify-content: center;
 }
 
-#a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m {
+#a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n {
     flex: 2;
     flex-grow: 0;
 }

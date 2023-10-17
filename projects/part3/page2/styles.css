@@ -1,0 +1,99 @@
+/* Typography */
+
+#title {
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    text-decoration: none;
+}
+
+#over {
+    text-align: center;
+    font-size: x-large;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+#hi2 a, #hi a:hover, #hi3 a:hover, #hi4 a:hover, #hi5 a:hover { 
+    border-bottom: 3px solid blue;
+}
+
+/* Structure */
+
+#pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.hide {
+    display: none;
+}
+
+.remarkable3 {
+    display: flex;
+    background-color: rgb(229, 227, 227);
+}
+
+#back, #back2, #back3 {
+    background-color: white;
+    margin: 25px;
+    border: 2px solid black;
+}
+
+/* Navigation */
+
+#main-nav {
+    display: inline;
+    justify-content: space-evenly;
+}
+
+#main-nav li {
+    list-style-type: none;
+}
+
+#main-nav a {
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+
+#main-nav2 {
+    display:inline;
+}
+
+#nav-toggle div {
+    width: 35px;
+    height: 5px;
+    background-color: grey;
+    margin: 6px 0;
+    display: flex;
+    justify-content: left;
+}
+
+/*Larger Resolutions (mobile devices)*/
+@media only screen and (min-width: 600px) { 
+    #main-nav {
+        display: flex;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+   .hide {
+        display: block;
+   }
+   
+}
+
+
