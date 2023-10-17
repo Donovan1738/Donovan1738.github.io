@@ -17,6 +17,10 @@ body {
     background-color: lightblue;
 }
 
+#hi4 a:hover, #hi a:hover, #hi2 a:hover, #hi3 a:hover, #hi5 a:hover, #hi6 a:hover { 
+    border-bottom: 3px solid blue;
+}
+
 /* Structure */
 
 #pic {

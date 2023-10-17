@@ -26,7 +26,7 @@ body {
     color: black;
 }
 
-#hi3 a, #hi a:hover, #hi2 a:hover, #hi4 a:hover, #hi5 a:hover { 
+#hi3 a, #hi a:hover, #hi2 a:hover, #hi4 a:hover, #hi5 a:hover, #hi6 a:hover { 
     border-bottom: 3px solid blue;
 }
 
