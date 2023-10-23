@@ -46,5 +46,4 @@ const showEmailResult = async (e) => {
 window.onload = () => {
     document.getElementById("nav-toggle").onclick = showNav;
     document.getElementById("text").onsubmit = showEmailResult;
-    // document.getElementById("text").onsubmit = displayReview;
 }
