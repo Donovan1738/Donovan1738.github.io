@@ -36,7 +36,7 @@ body {
 
 /* Structure */
 
-.hide {
+.hide, .hidden {
     display: none;
 }
 
@@ -51,7 +51,7 @@ label {
     padding: 1px;
 }
 
-#text {
+#form-text {
     text-align: start;
     margin: auto;
     width: 50%;
@@ -65,6 +65,11 @@ label {
 
 #review {
     display: flex; 
+}
+
+#results, #result {
+    text-align: center;
+    background-color: white;
 }
 
 /* Navigation */

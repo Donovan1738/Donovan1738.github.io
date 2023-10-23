@@ -6,27 +6,45 @@ const showNav = () => {
     const nav4 = document.getElementById("hi5").classList.toggle("hide");  
 }
 
-const displayReview = () => {
-    const resultDiv = document.getElementById("reviews");
-    const name = document.getElementById("txt-name").value;
-    const product = document.getElementById("txt-product").value;
-    const review = document.getElementById("txt-review").value;
-
-    const section = document.createElement("section");
-    resultDiv.append(section);
-    const h2 = document.createElement("h2");
-    section.append(h2);
-    const h3 = document.createElement("h3");
-    section.append(h3);
-    const p = document.createElement("p"); 
-    section.append(p)
-
-    h2.textContent = `Reviewer: ${name}`;
-    h3.textContent = `Product: ${product}`
-    p.textContent = `${review}`; 
-}
+const showEmailResult = async (e) => {
+    e.preventDefault();
+    const result = document.getElementById("result");
+    let response = await getEmailResult();
+    if (response.status == 200) {
+      result.innerHTML = "Email Successfully Sent";
+    } else {
+      result.innerHTML = "Sorry, your email was not sent.";
+    }
+  };
+  
+  const getEmailResult = async (e) => {
+    const form = document.getElementById("text");
+    const formData = new FormData(form);
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+    const result = document.getElementById("result");
+    result.innerHTML = "Please wait...";
+  
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: json,
+      });
+      return response;
+    } catch (error) {
+      console.log(error);
+      document.getElementById("result").innerHTML =
+        "Sorry your email couldn't be sent";
+    }
+  };
+  
 
 window.onload = () => {
     document.getElementById("nav-toggle").onclick = showNav;
-    document.getElementById("button-review").onclick = displayReview;
+    document.getElementById("text").onsubmit = showEmailResult;
+    // document.getElementById("text").onsubmit = displayReview;
 }

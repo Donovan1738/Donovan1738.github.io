@@ -29,21 +29,39 @@
         <p id="over">Contact Me</p>
         <section id="review">
             <img src="images/tech.png" width="300" height="200"  alt="place holder">
-            <section id="text" class="margin">
+            <form id="text" class="margin" action="https://api.web3forms.com/submit" method="POST">
+                <input
+                    type="hidden"
+                    name="access_key"
+                    value="08350404-1dbb-4c97-bdb7-eccd4a7e0e30"
+                />
                 <p class="p"> 
-                    <label for="txt-name1">First/Last Name:</label>
-                    <input type="text" id="txt-name">
+                    <label for="txt-name">Name:</label>
+                    <input id="txt-name" type="text" name="name" placeholder="first and last" required />
                 </p>
                 <p class="p">
-                    <label for="txt-age1">Product:</label>
-                    <input type="text" id="txt-product">
+                    <label for="txt-email">Email:</label>
+                    <input id="txt-email" type="email" required />
                 </p>
                 <p class="p">
-                    <label for="txt-name2">Review:</label>
-                    <input type="text" id="txt-review">
+                    <label for="txt-message">Message:</label>
+                    <textarea id="txt-message" name="txt-message" required></textarea>
                 </p>
-                <button id="button-review">Submit</button>
-            </section>
+                <input
+                    type="hidden"
+                    name="redirect"
+                    value="https://web3forms.com/success"
+                /> 
+                <input
+                    type="hidden"
+                    name="subject"
+                    value="Contact from Jaspers Website"
+                />
+                <input type="hidden" name="from_name" value="My Website" />
+
+                <button submit="button-submit">Submit</button>
+                <p id="result"></p>
+            </form>
         </section>
     
 </body>

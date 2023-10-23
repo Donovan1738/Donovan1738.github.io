@@ -29,24 +29,35 @@
         <p id="over">Add A Personal Review To Any Product</p>
         <section id="review">
             <img src="images/tech.png" width="300" height="200"  alt="place holder">
-            <section id="text" class="margin">
+            <form id="form-text" class="margin">
                 <p class="p"> 
                     <label for="txt-name1">First/Last Name:</label>
-                    <input type="text" id="txt-name">
+                    <input id="txt-name1" type="text" name="name" required />
                 </p>
                 <p class="p">
-                    <label for="txt-age1">Product:</label>
-                    <input type="text" id="txt-product">
+                    <label for="txt-email">Email:</label>
+                    <input id="txt-email" type="email" required />
                 </p>
                 <p class="p">
-                    <label for="txt-name2">Review:</label>
-                    <input type="text" id="txt-review">
+                    <label for="txt-product">Product:</label>
+                    <input id="txt-product" type="text" required />
                 </p>
-                <button id="button-review">Create Review</button>
-            </section>
+                <p class="p">
+                    <label for="txt-review">Review:</label>
+                    <textarea id="txt-review" name="txt-review" required></textarea>
+                </p>
+                <button  type="submit">Submit Review</button>
+            </form>
         </section>
-    
-    <a id="link" href="review.html"><div id="reviews"></div></a>
+
+        <section id="results" class="hidden">
+            <h4>Results</h4>
+            <p>
+              Your review has been added to the system, someone will contact you shortly.
+            </p>
+          </section>
+
+          <section id="result"></section>
     
 </body>
 
