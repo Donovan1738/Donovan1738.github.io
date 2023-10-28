@@ -34,7 +34,7 @@ const getProItem = (pro) => {
     h8.classList.add("pic");
     div.append(h8);
 
-    let h2 = document.createElement("h2");
+    let h2 = document.createElement("p");
     h2.innerText = pro.title;
     h2.classList.add("over");
     div.append(h2);
