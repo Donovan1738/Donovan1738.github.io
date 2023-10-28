@@ -27,27 +27,36 @@ const showProject = async () => {
 };
 
 const getProItem = (pro) => {
-    let div = document.getElementById("yo");
+    let section1 = document.createElement("section");
+    let div1 = document.createElement("div");
+    let section2 = document.createElement("section");
+    let section3 = document.createElement("section");
 
+    section1.classList.add("remarkable3");
+    section1.setAttribute("id","back");
     
     let h2 = document.createElement("a");
-    div.append(h2);
+    section1.append(h2);
     h2.href = pro.a;
     h2.classList.add("link");
-    a.append(h2);
 
     let h8 = document.createElement("img");
     h8.src = pro.img;
     h8.classList.add("pic");
-    a.append(h8);
+    h2.append(h8);
 
+    let h4 = document.createElement("p");
+    h4.innerText = pro.title;
+    h2.append(div1);
+    h4.classList.add("new");
+    div1.append(h4);
 
     let h3 = document.createElement("p");
     h3.innerText = pro.description;
-    h3.classList.add("p1");
-    a.append(h3);
+    h3.classList.add("p4");
+    div1.append(h3);
     
-    return div;
+    return section1;
 }
 window.onload = () => {
     document.getElementById("nav-toggle").onclick = showNav;

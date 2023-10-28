@@ -27,7 +27,17 @@ const showProject = async () => {
 };
 
 const getProItem = (pro) => {
+    let div1 = document.getElementById("main-nav");
     let div = document.getElementById("yo");
+    // let li = document.createElement("li");
+    // li.classList.add("hide");
+
+    // div1.append(li);
+
+    // let h4 = document.createElement("a");
+    // h4.href= pro.link;
+    // li.append(h4);
+
 
     let h8 = document.createElement("img");
     h8.src = pro.img;
