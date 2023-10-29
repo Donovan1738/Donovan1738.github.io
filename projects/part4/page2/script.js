@@ -29,8 +29,8 @@ const showProject = async () => {
 const getProItem = (pro) => {
     let section1 = document.createElement("section");
     let div1 = document.createElement("div");
-    let section2 = document.createElement("section");
-    let section3 = document.createElement("section");
+    // let section2 = document.createElement("section");
+    // let section3 = document.createElement("section");
 
     section1.classList.add("remarkable3");
     section1.setAttribute("id","back");
