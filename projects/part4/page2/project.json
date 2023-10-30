@@ -6,14 +6,16 @@
         "description": "The latest iPhone created by apple featuring a new titanium design, USB-C charging and the dynamic island."
 },
 {
+        "a": "#",
         "img": "images/samsung.webp",
         "title": "Samsung Galaxy S23",
         "description": "The latest Samsung Galaxy by Samsung featuring a snapdragon processor, good battery life, and an uprgraded camera."
 },
 {
-    "img": "images/pixel.jpg",
-    "title": "Google Pixel 8",
-    "description": "The latest Google Pixel designed by Google features an uprgraded camera, a temperature sensor, and a polished metal finish."
+         "a": "#",
+        "img": "images/pixel.jpg",
+        "title": "Google Pixel 8",
+        "description": "The latest Google Pixel designed by Google features an uprgraded camera, a temperature sensor, and a polished metal finish."
 }
 
 ]
