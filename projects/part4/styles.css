@@ -5,7 +5,7 @@
     font-size: xx-large;
 }
 
-.over {
+#over {
     text-align: center;
     font-size: x-large;
 }
@@ -21,7 +21,7 @@ body {
 
 /* Structure */
 
-.pic {
+#pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
