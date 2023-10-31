@@ -24,10 +24,16 @@ body {
     flex-grow: 0;
 }
 
-#i, #j, #k, #l, #m, #n, #o, #p, #q {
+#i, #j, #k, #l, #m, #n, #o, #p {
     flex: 2;
     flex-grow: 0;
 }
+
+#q {
+    flex: 2;
+    flex-grow: 0;
+}
+
 
 .c1 {
     border: 5px solid black;
