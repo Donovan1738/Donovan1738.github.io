@@ -35,7 +35,7 @@ const getProItem = (pro) => {
     
     let h2 = document.createElement("a");
     section1.append(h2);
-    h2.href = pro.a;
+    h2.href = pro.a; 
     h2.classList.add("link");
 
     let h8 = document.createElement("img");
