@@ -54,11 +54,11 @@ h2 {
     font-weight: bold;
 }
 
-body, #a1 {
+body {
     color: darkgoldenrod;
 }
  
-a:link, a:visited, #p1 {
+a:link, a:visited {
     color: darkgray;
     text-decoration: none;
     padding: 5px 10px 5px;
