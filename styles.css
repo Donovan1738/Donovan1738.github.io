@@ -29,7 +29,7 @@ body {
     flex-grow: 0;
 }
 
-#q, #r {
+#q, #r, #s {
     flex: 2;
     flex-grow: 0;
 }
