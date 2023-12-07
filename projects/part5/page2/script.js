@@ -8,7 +8,7 @@ const showNav = () => {
 
 const getProducts = async () => {
     try {
-        return (await fetch("http://localhost:3000/api/products")).json();
+        return (await fetch("https://node-final-t9x3.onrender.com/api/products")).json();
     } catch(error) {
         console.log(error);
     }
@@ -34,7 +34,7 @@ const showProducts = async () => {
         if(product.img) {
             const img = document.createElement("img");
             section.append(img);
-            img.src = "http://localhost:3000/" + product.img;
+            img.src = "https://node-final-t9x3.onrender.com/" + product.img;
         }
         
 
@@ -83,7 +83,7 @@ const displayDetails = (product) => {
 
 async function deleteProduct(_id) {
     // console.log(_id);
-    let response = await fetch(`http://localhost:3000/api/products/${_id}`, {
+    let response = await fetch(`https://node-final-t9x3.onrender.com/api/products/${_id}`, {
         method: "DELETE", 
         headers: {
             "Content-Type": "application/json;charset=utf-8",
@@ -122,13 +122,13 @@ const addEditProduct = async (e) => {
         formData.delete("_id");
         // console.log(...formData);
 
-        response = await fetch("http://localhost:3000/api/products", {
+        response = await fetch("https://node-final-t9x3.onrender.com/api/products", {
             method: "POST",
             body: formData,
         });
     } else {
         // existing instrument
-        response = await fetch(`http://localhost:3000/api/products/${form._id.value}`, {
+        response = await fetch(`https://node-final-t9x3.onrender.com/api/products/${form._id.value}`, {
             method: "PUT",
             body: formData,
         });
@@ -155,7 +155,7 @@ const addEditProduct = async (e) => {
 
 const getProduct = async (_id) => {
     let response = await fetch(
-        `http://localhost:3000/api/products/${_id}`
+        `https://node-final-t9x3.onrender.com/api/products/${_id}`
     );
     if (response.status != 200) {
         console.log("Error receiving product");
