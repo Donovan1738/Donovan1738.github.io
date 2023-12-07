@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <div id="class">
+
+<head>
+    <title>Main</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body> 
+    <a id="title" href="../index.html"><p id="title"> Donovan's Tech Review</p></a> 
+    <nav id="main-nav2">
+        <div id="nav-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+        <div id="main-nav">
+            <li class="hide" id="hi"><a href="../index.html">Home</a></li>
+            <li class="hide" id="hi2"><a href="#">Phone Reviews</a></li>
+            <li class="hide" id="hi3"><a href="../page3/index.html">Laptop Reviews</a></li>
+            <li class="hide" id="hi4"><a href="../page4/index.html">Headphones/Watches Reviews</a></li>
+            <li class="hide" id="hi5"><a href="../page5/index.html">Add a Review</a></li>
+            <li class="hide" id="hi6"><a href="page9/index.html">Contact Me</a></li>
+        </div>
+        <div id="yo">      
+    </div>
+
+        <div class="columns two-columns">
+            <div id="product-list" class="columns"></div>
+            <div id="product-details-column">
+            <h2>Details</h2>
+            <div id="product-details"></div>
+        </div>
+    </div>
+    <a href="#" id="add-link">Add/Edit Product</a>
+    <div id="add-edit-product-container" class="dialog transparent">
+        <span class="close">&times;</span>
+
+        <h3 id="add-edit-title">Products</h3>
+        <form id="add-edit-product-form" method="POST">
+            <input type="hidden" name="_id" value="-1" />
+            <p>
+                <label for="name">Product Name:</label>
+                <input type="text" id="name" name="name" required />
+            </p> 
+            <p>
+                <label for="description">Desciption:</label>
+                <input type="text" id="description" name="description" required />
+            </p> 
+            <p>
+                <label for="img">Img:</label>
+                <input type="file" id="img" name="img"/>
+            </p> 
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </form>
+</div>
+</body>
+
+</html>

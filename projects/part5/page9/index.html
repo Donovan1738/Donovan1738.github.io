@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <div id="class">
+
+<head>
+    <title>Main</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body> 
+    <a id="title" href="../index.html"><p id="title"> Donovan's Tech Review</p></a> 
+    <nav id="main-nav2">
+        <div id="nav-toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+        <div id="main-nav">
+            <li class="hide" id="hi"><a href="../index.html">Home</a></li>
+            <li class="hide" id="hi2"><a href="../page2/index.html">Phone Reviews</a></li>
+            <li class="hide" id="hi3"><a href="../page3/index.html">Laptop Reviews</a></li>
+            <li class="hide" id="hi4"><a href="../page4/index.html">Headphones/Watches Reviews</a></li>
+            <li class="hide" id="hi5"><a href="../page5/index.html">Add a Review</a></li>
+            <li class="hide" id="hi6"><a href="#">Contact Me</a></li>
+        </div>
+
+        <p id="over">Contact Me</p>
+        <section id="review">
+            <img src="images/tech.png" width="300" height="200"  alt="place holder">
+            <form id="text" class="margin" action="https://api.web3forms.com/submit" method="POST">
+                <input
+                    type="hidden"
+                    name="access_key"
+                    value="08350404-1dbb-4c97-bdb7-eccd4a7e0e30"
+                />
+                <p class="p"> 
+                    <label for="txt-name">Name:</label>
+                    <input id="txt-name" type="text" name="name" placeholder="first and last" required />
+                </p>
+                <p class="p">
+                    <label for="txt-email">Email:</label>
+                    <input id="txt-email" type="email" required />
+                </p>
+                <p class="p">
+                    <label for="txt-message">Message:</label>
+                    <textarea id="txt-message" name="txt-message" required></textarea>
+                </p>
+                <input
+                    type="hidden"
+                    name="redirect"
+                    value="https://web3forms.com/success"
+                /> 
+                <input
+                    type="hidden"
+                    name="subject"
+                    value="Contact from Jaspers Website"
+                />
+                <input type="hidden" name="from_name" value="My Website" />
+
+                <button submit="button-submit">Submit</button>
+                <p id="result"></p>
+            </form>
+        </section>
+    
+</body>
+
+</html>
